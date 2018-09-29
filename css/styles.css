@@ -3,6 +3,7 @@
   height: 50vh;
   width: 80%;
   margin: 0 auto;
+  
 }
 
 .item {
@@ -16,9 +17,15 @@
 .container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items:  baseline;
+}
+
+.item-3 {
+  font-size: 60px;
 }
 
 .item {
-  width: 25%;
+  width: 10%;
 /*   height: 25%; */
 }
